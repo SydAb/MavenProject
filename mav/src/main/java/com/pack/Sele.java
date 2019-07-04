@@ -15,6 +15,7 @@ public class Sele {
 		
 		driver = new ChromeDriver();
 
+		driver.get("https://connect.maveric-systems.com/index.php/site/login");
 	}
 
 }
